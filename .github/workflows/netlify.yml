@@ -22,6 +22,7 @@ jobs:
       #- run: npm ci
       #- run: npm run build
       - run: pnpm i
+      - run: pnpm install netlify-cli
       - run: pnpm run build
 
       # Netlifyにデプロイする。「--dir=./dist」の部分はビルド結果ができあがるディレクトリ名に変えましょう。
