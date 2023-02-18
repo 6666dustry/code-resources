@@ -13,14 +13,17 @@ jobs:
       - uses: actions/checkout@v2
 
       # 「./dist」にビルド結果が生成する。好きなビルドに変えましょう。
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 12.x
-      - run: npm ci
-      - run: npm run build
+      - uses: pnpm/action-setup@v2
+      #- uses: actions/setup-node@v1
+      #  with:
+        # node-version: 12.x
+      #- run: npm ci
+      #- run: npm run build
+      - run: pnpm i
+      - run: pnpm run build
 
       # Netlifyにデプロイする。「--dir=./dist」の部分はビルド結果ができあがるディレクトリ名に変えましょう。
-      - run: npx netlify-cli deploy --dir=./.next
+      - run: pnpm netlify-cli deploy --dir=./.next
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
