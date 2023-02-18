@@ -1,0 +1,41 @@
+.main {
+  text-align: center;
+}
+
+.start {
+  margin-block-end: 10px;
+}
+
+.select {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  >* {
+    border: 1px solid skyblue;
+  }
+}
+
+.inputList {
+  list-style: none;
+  padding: 0;
+
+  *input {
+    min-width: 2em;
+    width: fit-content;
+    max-width: 80%;
+  }
+
+  *button {
+    display: inline-block;
+  }
+}
+
+.inputChoice {
+  min-width: 2em;
+  width: fit-content;
+  max-width: 80%;
+}
+
+.inputSection {
+  width: 100%;
+}

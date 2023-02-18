@@ -1,0 +1,3 @@
+:where(.tooltip) {
+  text-decoration: underline white dotted 2px;
+}

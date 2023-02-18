@@ -1,0 +1,34 @@
+{
+  "title": "Other",
+  "pairChallengeMaker": {
+    "title": "pair-challenge-maker",
+    "use": "How To Use",
+    "placeHolder": "Enter an item here",
+    "who1": "who",
+    "who2": "and who",
+    "where": "what",
+    "what": "where",
+    "suffix": {
+      "who1": " and",
+      "who2": "",
+      "where": "",
+      "what": ""
+    },
+    "add": {
+      "title": "add",
+      "description": "Enter an item on \"Enter an item  here\"."
+    },
+    "remove": {
+      "title": "remove",
+      "description": "Double click on the item to remove."
+    },
+    "edit": {
+      "title": "edit",
+      "description": "click on the item to edit."
+    },
+    "lottery": {
+      "title": "start lottery",
+      "description": "click \"start lottery\"."
+    }
+  }
+}

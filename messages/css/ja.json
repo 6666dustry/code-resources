@@ -1,0 +1,16 @@
+{
+  "title": "CSS",
+  "about": {
+    "title": "CSSとは？",
+    "description": "CSSとは、Cascading Style Sheets の略で、<br/>ウェブページの見た目を整えたり、より読みやすくしたりします。"
+  },
+  "theme": {
+    "title": "テーマ",
+    "description": "綺麗なものからふざけたものまで様々なテーマを試すことができます。",
+    "try": "このテーマを適用してみる",
+    "rainbow": {
+      "name": "レインボー",
+      "description": "目が死にます。"
+    }
+  }
+}

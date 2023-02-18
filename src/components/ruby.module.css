@@ -1,0 +1,8 @@
+:where(.translated) {
+  -webkit-ruby-position: under;
+  ruby-position: under;
+}
+
+:where(.ruby) {
+  width: fit-content;
+}

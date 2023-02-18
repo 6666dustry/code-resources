@@ -1,0 +1,59 @@
+html,
+body {
+  background-color: white;
+}
+
+html {
+  min-height: 100vh;
+}
+
+header {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  background-color: black;
+  color: white;
+
+  nav {
+    >ul {
+      width: 100%;
+      font-weight: 1000;
+      display: flex;
+      list-style: none;
+      padding: 10px;
+      margin: 0;
+
+      @media screen and (max-width:480px) {
+        flex-direction: column;
+      }
+
+      li {
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        padding: 0;
+
+        &::first-letter {
+          font-size: 150%;
+        }
+
+        >a {
+          margin: auto;
+        }
+      }
+
+      ul {
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        padding: 0;
+      }
+    }
+  }
+}
+
+main {
+  max-width: 750px;
+  margin: auto;
+  padding: 2em;
+}

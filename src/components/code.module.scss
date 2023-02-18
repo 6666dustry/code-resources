@@ -1,0 +1,49 @@
+$codeFont: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+
+:where(.codeDiv) {
+  width: 100%;
+  box-sizing: border-box;
+  font-family: $codeFont;
+  border: 2px solid hsl(0%, 0%, 25%);
+}
+
+:where(.codePre) {
+  white-space: pre-wrap;
+  inline-size: 100%;
+  width: 100%;
+}
+
+:where(.code) {
+  line-height: 175%;
+  display: inline-block;
+  max-width: 100%;
+  font-family: $codeFont;
+}
+
+:where(.codeTypeList) {
+  margin-top: 0;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  padding: 0;
+
+  :where(li) {
+    font-size: 100%;
+    padding: 10px;
+    border: 1px solid hsl(0%, 0%, 25%);
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    transition: font-size 0.3s;
+
+    :where(&:hover) {
+      font-size: 133%;
+    }
+  }
+}
+
+:where(.inlineCode) {
+  display: inline-block;
+  font-family: $codeFont;
+  margin: 0px .5em;
+}

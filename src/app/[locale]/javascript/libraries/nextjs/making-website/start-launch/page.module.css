@@ -1,0 +1,19 @@
+.default {
+  color: darkcyan;
+}
+
+.choice {
+  color: crimson;
+}
+
+.configuration {
+  margin-top: 50px;
+}
+
+.configuration dd {
+  font-size: 75%;
+}
+
+.smile::after {
+  content: ":)";
+}

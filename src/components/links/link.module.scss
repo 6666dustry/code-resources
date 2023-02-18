@@ -1,0 +1,17 @@
+:where(.nav) {
+  display: flex;
+
+  :where(a) {
+    :where(&:link) {
+      color: lightgray;
+    }
+
+    :where(&:visited) {
+      color: gray
+    }
+
+    :where(&:hover) {
+      color: white;
+    }
+  }
+}

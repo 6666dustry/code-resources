@@ -1,0 +1,34 @@
+{
+  "title": "その他",
+  "pairChallengeMaker": {
+    "title": "ペアお題メーカー",
+    "use": "使い方",
+    "placeHolder": "ここに入力",
+    "who1": "誰が",
+    "who2": "誰と",
+    "where": "どこで",
+    "what": "どうした",
+    "suffix": {
+      "who1": "と",
+      "who2": "が",
+      "where": "で",
+      "what": ""
+    },
+    "add": {
+      "title": "追加",
+      "description": "\"ここに入力\"に入力してください。"
+    },
+    "remove": {
+      "title": "削除",
+      "description": "項目をダブルクリックで削除できます。"
+    },
+    "edit": {
+      "title": "編集",
+      "description": "項目をクリックで編集できます。"
+    },
+    "lottery": {
+      "title": "抽選スタート",
+      "description": "抽選スタートを押してください"
+    }
+  }
+}

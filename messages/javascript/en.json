@@ -1,0 +1,113 @@
+{
+  "title": "JavaScript",
+  "about": {
+    "title": "What is JavaScript?",
+    "description": "Javascript is a programming language that fast,easy to learn and not necessary compile.",
+    "using": "JavaScript is the programming language of the Web.",
+    "list": "list"
+  },
+  "library": {
+    "title": "library/framework",
+    "about": {
+      "title": "What is Library/framework?",
+      "description": "Library/framework is very useful for developing something difficult.",
+      "difference": {
+        "title": "What is different between Library and framework?",
+        "description": "Library is very freely. But It cannot work out of the box,framework can work out of the box."
+      }
+    },
+    "nextjs": {
+      "about": {
+        "title": "Welcome to Next.js",
+        "description": "Next.js is a fullstack framework and using React."
+      },
+      "making-website": {
+        "title": "making your first website with Next.js",
+        "description": "The simple tutorial to make your first website with Next.js.",
+        "start-launch": {
+          "title": "Try Next.js",
+          "step1": {
+            "title": "Installing Next.js",
+            "description": "Next.js is can be installed by <a href=\"https://www.npmjs.com/\" title=\"The most popular Javascript package manager.\">npm</a> or <a title=\"The second most popular Javascript package manager. faster than npm.\" href=\"https://yarnpkg.com/\">yarn</a> or <a title=\"faster than yarn and saving disc space.\" href=\"https://pnpm.io/ja/\">pnpm</a>.",
+            "command": "Install command",
+            "case": "case of {manager}",
+            "config": {
+              "title": "configuration!",
+              "description": "<green>Green</green> is default, and  <red>red</red> is we want to choice.",
+              "naming": {
+                "choose": "as you like.",
+                "description": "Your new project name."
+              },
+              "ESLint": {
+                "description": "JavaScript syntax checker."
+              },
+              "TypeScript": {
+                "description": "Javascript with static typing support."
+              },
+              "app": {
+                "description": "enable experimental \"app\"feature.<br></br>default is \"No\",so you have to set Yes."
+              },
+              "alias": {
+                "choose": "just press enter.",
+                "description": "this configuration is setting the \"import shortcut path\".<br></br> if you want to change or add shortcuts, you can modify \"paths\" in \"tsconfig.json\""
+              }
+            }
+          },
+          "step2": {
+            "title": "Boot development server",
+            "description": "You might think booting your development server is very difficult.<br></br>Don't worry,Next.js will make It very easy!",
+            "command": "First,run this command in your terminal.",
+            "booted": "Oh..... that's all!.You have booted your development server at <server>http://localhost:3000</server>!",
+            "open": "Next,open the <server>http://localhost:3000</server> in your favorite browser.",
+            "finally": "If you can see Next.js logo,you were succeeded to boot development your server!"
+          },
+          "ref": {
+            "title": "references",
+            "next": "Next.js official site",
+            "next-beta": "Next.js official site(beta version)"
+          }
+        },
+        "make-sub-page": {
+          "title": "Making your first sub-page",
+          "step1": {
+            "title": "step1",
+            "description": "create a new folder in \"src/app\" directory with any form name.(It will become url)"
+          },
+          "step2": {
+            "title": "step2",
+            "description": "create a new file named \"page.tsx\" in the directory."
+          },
+          "step3": {
+            "title": "step3",
+            "description": "copy and paste the code below into the file.",
+            "h1": "sub-page!"
+          },
+          "step4": {
+            "title": "step4",
+            "description": "boot your server and open in browser.<br></br>then set the url \"http://localhost:3000/your-directory-name\".<br></br>e.g.<br></br>\"http://localhost:3000/sub-page\""
+          },
+          "ref": {
+            "title": "references",
+            "next-beta": "Next.js official site(beta version)"
+          }
+        }
+      }
+    },
+    "react": {
+      "comment-out": {
+        "title": "comment-out tags",
+        "display": "Displayed",
+        "notDisplay": "Not displayed",
+        "result": "result",
+        "howTo": {
+          "title": "How to",
+          "description": "Surround the code you want to comment-out by <code>{leftBracket}/*</code> and <code>*/{rightBracket}</code>."
+        },
+        "supplement": {
+          "title": "Supplement",
+          "description": "If you are using VSCode,you can comment-out by \"ctrl+/\""
+        }
+      }
+    }
+  }
+}

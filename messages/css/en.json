@@ -1,0 +1,16 @@
+{
+  "title": "CSS",
+  "about": {
+    "title": "What is CSS?",
+    "description": "CSS stands for Cascading Style Sheets.<br/>It is used for styling website.<br/>CSS is necessary for any website!"
+  },
+  "theme": {
+    "title": "Theme",
+    "description": "You can try many different themes.",
+    "try": "try this theme",
+    "rainbow": {
+      "name": "rainbow",
+      "description": "Crash eyes."
+    }
+  }
+}

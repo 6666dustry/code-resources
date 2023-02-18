@@ -1,0 +1,113 @@
+{
+  "title": "JavaScript",
+  "about": {
+    "title": "JavaScriptとは？",
+    "description": "JavaScriptは軽量なインタープリター型(コンパイルが不要)プログラミング言語です。",
+    "using": "主な用途はウェブに動きを付けることです。",
+    "list": "一覧"
+  },
+  "library": {
+    "title": "ライブラリ/フレームワーク",
+    "about": {
+      "title": "ライブラリ/フレームワークとは？",
+      "description": "コミュニティなどによって作られた、便利な機能の詰め合わせです。用途によって様々な種類があります。",
+      "difference": {
+        "title": "ライブラリとフレームワークの違い",
+        "description": "ライブラリはとても自由に開発することができますが、<br></br>すぐその場では動きません。一方フレームワークはインストールすればすぐに少なくとも動きます。"
+      }
+    },
+    "nextjs": {
+      "about": {
+        "title": "Next.jsへようこそ",
+        "description": "Next.jsはフルスタックのフレームワークで、Reactを使用して素早いサイト構築ができます。"
+      },
+      "making-website": {
+        "title": "初めてのNext.js",
+        "description": "Next.jsのベータの簡単なチュートリアルです。",
+        "start-launch": {
+          "title": "Next.jsをインストールしよう",
+          "step1": {
+            "title": "Installing Next.js",
+            "description": "Next.jsは<a href=\"https://www.npmjs.com/\" title=\"おそらくもっとも有名なJavaScriptのパッケージマネージャー。\">npm</a>や<a title=\"二番目に有名なJavaScriptのパッケージマネージャー。npmより早い。\" href=\"https://yarnpkg.com/\">yarn</a>や<a title=\"npmをパワーアップさせたようなパッケージマネージャー。yarnよりも早いそうだ。\" href=\"https://pnpm.io/ja/\">pnpm</a>などのパッケージマネージャーを使ってインストールできます。",
+            "command": "インストールコマンド",
+            "case": "{manager}の場合",
+            "config": {
+              "title": "設定！",
+              "description": "<green>緑</green>が規定値、<red>赤</red>が今回の設定。。",
+              "naming": {
+                "choose": "お好みで！",
+                "description": "新しいプロジェクトの名前。"
+              },
+              "ESLint": {
+                "description": "JavaScriptの構文チェッカー。。"
+              },
+              "TypeScript": {
+                "description": "Javascriptに静的型付けを導入するトランスパイラ。"
+              },
+              "app": {
+                "description": "デフォルトがNoになっているので右矢印を押してYesにしてください。"
+              },
+              "alias": {
+                "choose": "変更せずにEnter",
+                "description": "`インポートのショートカットの設定。デフォルトでは\"@/\"が\"./src/\"になる。<br></br>変更したり追加したい場合は、tsconfig.jsonの中のpathsオプションで変更できる。"
+              }
+            }
+          },
+          "step2": {
+            "title": "開発サーバーを起動しよう",
+            "description": " サーバを起動するの、なんだか大変そうですよね。でも大丈夫、Next.jsなら簡単にできます。",
+            "command": "まず、下のコマンドを実行します。",
+            "booted": "これでサーバーが<server>http://localhost:3000</server>に起動しました。",
+            "open": "次に<server>http://localhost:3000</server>をブラウザで開きます。",
+            "finally": "Next.jsのロゴが出れば成功です。"
+          },
+          "ref": {
+            "title": "参考",
+            "next": "Next.js公式サイト",
+            "next-beta": "Next.js公式サイト(ベータ)"
+          }
+        },
+        "make-sub-page": {
+          "title": "サブページを作ろう",
+          "step1": {
+            "title": "ステップ1",
+            "description": "\"src/app\"ディレクトリに好きな名前のフォルダーを作ります。（urlの名前になります）"
+          },
+          "step2": {
+            "title": "ステップ2",
+            "description": " そのフォルダーの中に、`page.tsx`という名前のファイルを作成します。"
+          },
+          "step3": {
+            "title": "ステップ3",
+            "description": " 下のコードをコピペして先ほど作成したファイルに貼り付けます。",
+            "h1": "サブページ!"
+          },
+          "step4": {
+            "title": "ステップ4",
+            "description": "サーバーをブラウザで開きurlに`/フォルダーの名前`を追加してください。これで\"サブページ！\"が表示されていれば成功です。",
+            "ref": {
+              "title": "参考",
+              "next-beta": "Next.js公式サイト(ベータ)"
+            }
+          }
+        }
+      }
+    },
+    "react": {
+      "comment-out": {
+        "title": "タグのコメントアウト",
+        "result": "結果",
+        "display": "表示される",
+        "notDisplay": "表示されない",
+        "howTo": {
+          "title": "方法",
+          "description": "コメントアウトしたいタグを<code>{leftBracket}/*</code>と<code>*/{rightBracket}</code>で囲む"
+        },
+        "supplement": {
+          "title": "補足",
+          "description": "VSCodeでは、コメントアウトしたいところを選択し、ctrl+/でコメントアウトできます。"
+        }
+      }
+    }
+  }
+}
