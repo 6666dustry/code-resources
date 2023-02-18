@@ -15,7 +15,7 @@ jobs:
       # 「./dist」にビルド結果が生成する。好きなビルドに変えましょう。
       - uses: pnpm/action-setup@v2
         with: 
-          version:latest
+          version: latest
       #- uses: actions/setup-node@v1
       #  with:
         # node-version: 12.x
