@@ -25,7 +25,8 @@ jobs:
       - run: pnpm run build
 
       # Netlifyにデプロイする。「--dir=./dist」の部分はビルド結果ができあがるディレクトリ名に変えましょう。
-      - run: pnpm dlx netlify-cli deploy --dir=./.next
+      #- run: pnpm dlx netlify-cli deploy --dir=./.next
+      - run: pnpm --package=netlify-cli dlx netlify
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
