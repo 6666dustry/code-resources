@@ -5,18 +5,11 @@ import { useFrame, ThreeElements, useThree, useLoader } from '@react-three/fiber
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import { GLTF, GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import model from "@blender/stamp/stamp.glb";
-import modelGlTF from "@blender/stamp/stamp.gltf";
-import modelBlend from "@blender/stamp/stamp.blend";
-const req = new XMLHttpRequest();
-req.open("GET", modelGlTF);
-req.open("GET", modelBlend);
 export default function Box(props: ThreeElements['mesh']) {
   const state = useThree();
   const gltf = useLoader(GLTFLoader, model);
   let mixer = useRef<THREE.AnimationMixer>(new THREE.AnimationMixer(gltf.scene));
   useEffect(() => {
-    console.log("foo");
-
     state.gl.setClearColor("#000000");
     state.camera.position.set(0, 0, 30);
     const o = new OrbitControls(state.camera, state.gl.domElement);
