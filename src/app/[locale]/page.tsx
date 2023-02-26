@@ -27,7 +27,6 @@ export default function Home() {
         <details>
           <summary>{t("detail")}</summary>
           <p>{t("JavaScript.detail")}</p>
-          <Link href="/javascript/libraries/nextjs">Next.js</Link>
         </details>
       </section>
       <section className={styles.section}>

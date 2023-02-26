@@ -1,3 +1,29 @@
+@use "../../app/[locale]/html/style.module.scss" as html;
+@use "../../app/[locale]/css/style.module.scss" as css;
+@use "../../app/[locale]/javascript/style.module.scss" as javascript;
+@use "../../app/[locale]/other/style.module.scss" as other;
+
 :where(.nav) {
   display: flex;
+
+  li {
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+  }
+
+  li:nth-child(2) {
+    border-bottom-color: html.$color;
+  }
+
+  li:nth-child(3) {
+    border-bottom-color: css.$color;
+  }
+
+  li:nth-child(4) {
+    border-bottom-color: javascript.$color;
+  }
+
+  li:nth-child(5) {
+    border-bottom-color: other.$color;
+  }
 }
