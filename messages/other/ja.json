@@ -1,5 +1,6 @@
 {
   "title": "その他",
+  "party": "パーティー用の何か",
   "pairChallengeMaker": {
     "title": "ペアお題メーカー",
     "use": "使い方",
@@ -29,6 +30,43 @@
     "lottery": {
       "title": "抽選スタート",
       "description": "抽選スタートを押してください"
+    }
+  },
+  "blender": {
+    "title": "ブレンダー",
+    "description": "ブレンダーは無料の3DCGソフトウェアです。",
+    "fundamental": {
+      "title": "ブレンダーの基本",
+      "shortcuts": {
+        "title": "ショートカット",
+        "tab": {
+          "description": "オブジェクトモードと編集モードを切り替えます。"
+        },
+        "shift": {
+          "description": "複数選択モードへ移行します。"
+        },
+        "ctrlS": {
+          "description": ".blend ファイルをセーブします。"
+        },
+        "ctrlZ": {
+          "description": "やり直しをします。"
+        },
+        "ctrlZShift": {
+          "description": "一番直近のやり直しをなかったことにします。"
+        },
+        "f": {
+          "description": "頂点から辺や面を作成します。"
+        },
+        "space": {
+          "description": "アニメーションを始めたり止めたりします。"
+        },
+        "t": {
+          "description": "左のサイドバーを開閉します。"
+        },
+        "n": {
+          "description": "右のサイドバーを開閉します。"
+        }
+      }
     }
   }
 }

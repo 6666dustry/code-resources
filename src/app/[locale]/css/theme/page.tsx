@@ -1,4 +1,4 @@
-import BackForward from "@/components/back-forward.jsx";
+import BackForward from "@/components/links/back-forward.jsx";
 import * as Themes from "./themes/themes.js";
 import styles from "./theme.module.scss";
 import { useTranslations } from "next-intl";

@@ -27,7 +27,13 @@
     "paths": {
       "@/*": [
         "./src/*"
-      ]
+      ],
+      "@resource/*": [
+        "public/*"
+      ],
+      "@blender/*": [
+        "public/blender/*"
+      ],
     }
   },
   "include": [

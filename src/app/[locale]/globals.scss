@@ -11,20 +11,26 @@ header {
   position: sticky;
   width: 100%;
   top: 0;
-  background-color: black;
+  background-color: lightskyblue;
   color: white;
+  box-shadow: 0px 5px 10px 0px black;
 
   nav {
+    position: relative;
+
     >ul {
-      width: 100%;
+      width: calc(100% - 20px);
       font-weight: 1000;
-      display: flex;
       list-style: none;
-      padding: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
       margin: 0;
 
       @media screen and (max-width:480px) {
         flex-direction: column;
+        max-height: 4em;
+        overflow-y: auto;
+        width: 100%;
       }
 
       li {
@@ -37,16 +43,10 @@ header {
           font-size: 150%;
         }
 
-        >a {
+        >a,
+        p {
           margin: auto;
         }
-      }
-
-      ul {
-        text-align: center;
-        display: inline-block;
-        width: 100%;
-        padding: 0;
       }
     }
   }
@@ -55,5 +55,7 @@ header {
 main {
   max-width: 750px;
   margin: auto;
+  margin-block-start: 30px;
   padding: 2em;
+  box-shadow: 0px 0px 5px 0px black;
 }

@@ -19,6 +19,17 @@ const nextConfig = {
     }
     config.resolve.extensionAlias[".js"] = ['.ts', '.js'];
     config.resolve.extensionAlias[".jsx"] = ['.tsx', '.jsx'];
+    config.module.rules.push(
+      {
+        resourceQuery: /raw/,
+        type: 'asset/source',
+      });
+    config.module.rules.push({
+      test: /\.(glb|gltf|blend)/,
+      type: "asset/resource",
+      resourceQuery: { not: [/raw/] },
+    });
+
     return config;
   }
 };

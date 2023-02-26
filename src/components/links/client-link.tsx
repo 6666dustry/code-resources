@@ -5,11 +5,11 @@ import { ComponentProps, forwardRef } from 'react';
 
 type Props = ComponentProps<typeof Link>;
 
-function ClientLink({ href, ...rest }: Props, ref: Props['ref']) {
+function ClientLink({ href, locale: l, ...rest }: Props, ref: Props['ref']) {
   const locale = useLocale();
 
   function getLocalizedHref(originalHref: string) {
-    return originalHref.replace(/^\//, '/' + locale + '/');
+    return originalHref.replace(/^\//, '/' + (l ?? locale) + '/');
   }
 
   const localizedHref =

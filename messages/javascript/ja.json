@@ -21,6 +21,7 @@
         "title": "Next.jsへようこそ",
         "description": "Next.jsはフルスタックのフレームワークで、Reactを使用して素早いサイト構築ができます。"
       },
+      "official": "Next.js公式サイト",
       "making-website": {
         "title": "初めてのNext.js",
         "description": "Next.jsのベータの簡単なチュートリアルです。",
@@ -84,16 +85,19 @@
           },
           "step4": {
             "title": "ステップ4",
-            "description": "サーバーをブラウザで開きurlに`/フォルダーの名前`を追加してください。これで\"サブページ！\"が表示されていれば成功です。",
-            "ref": {
-              "title": "参考",
-              "next-beta": "Next.js公式サイト(ベータ)"
-            }
+            "description": "サーバーをブラウザで開きurlに`/フォルダーの名前`を追加してください。これで\"サブページ！\"が表示されていれば成功です。"
+          },
+          "ref": {
+            "title": "参考",
+            "next-beta": "Next.js公式サイト(ベータ)"
           }
         }
       }
     },
     "react": {
+      "title": "React",
+      "description": "Reactはインタラクティブなユーザーインターフェースを簡単に構築できます。",
+      "official": "React公式サイト",
       "comment-out": {
         "title": "タグのコメントアウト",
         "result": "結果",
@@ -105,8 +109,16 @@
         },
         "supplement": {
           "title": "補足",
-          "description": "VSCodeでは、コメントアウトしたいところを選択し、ctrl+/でコメントアウトできます。"
+          "description": "VSCodeでは、コメントアウトしたいところを選択し、{key}でコメントアウトできます。"
         }
+      }
+    },
+    "threejs": {
+      "description": "Threejsはウェブ上で簡単に3Dレンダリングをするためのライブラリです。",
+      "official": "Threejs公式サイト",
+      "download": "{filename}でダウンロードする",
+      "stamp": {
+        "title": "スタンプ"
       }
     }
   }

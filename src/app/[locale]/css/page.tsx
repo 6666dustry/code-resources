@@ -1,4 +1,4 @@
-import BackForward from "@/components/back-forward.jsx";
+import BackForward from "@/components/links/back-forward.jsx";
 import { useTranslations } from "next-intl";
 import { Link } from "next-intl";
 export default function Page() {

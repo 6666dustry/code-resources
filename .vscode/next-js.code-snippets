@@ -24,6 +24,15 @@
 			"}"
 		]
 	},
+	"set up prev-next page": {
+		"prefix": "exportprev-nextPage",
+		"body": [
+			"import BackForward from \"@/components/links/back-forward.jsx\";",
+			"export default function Page() {",
+			"return <BackForward></BackForward>;",
+			"}"
+		]
+	},
 	"export component": {
 		"prefix": "exportComponent",
 		"scope": "typescriptreact,javascriptreact",

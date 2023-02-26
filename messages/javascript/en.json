@@ -21,6 +21,7 @@
         "title": "Welcome to Next.js",
         "description": "Next.js is a fullstack framework and using React."
       },
+      "official": "Official Next.js homepage.",
       "making-website": {
         "title": "making your first website with Next.js",
         "description": "The simple tutorial to make your first website with Next.js.",
@@ -94,6 +95,9 @@
       }
     },
     "react": {
+      "title": "React",
+      "description": "React is a library for building interactive user interfaces easily.",
+      "official": "React official homepage",
       "comment-out": {
         "title": "comment-out tags",
         "display": "Displayed",
@@ -105,8 +109,16 @@
         },
         "supplement": {
           "title": "Supplement",
-          "description": "If you are using VSCode,you can comment-out by \"ctrl+/\""
+          "description": "If you are using VSCode,you can comment-out by {key}"
         }
+      }
+    },
+    "threejs": {
+      "description": "Threejs is a library for handle 3D rendering on the web easier.",
+      "official": "Threejs official homepage",
+      "download": "Download as {filename}",
+      "stamp": {
+        "title": "stamp"
       }
     }
   }

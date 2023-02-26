@@ -1,0 +1,7 @@
+.key {
+  display: inline-block;
+  border: outset 5px lightgray;
+  padding-inline: 10px;
+  margin-inline: 10px;
+  background-color: whitesmoke;
+}

@@ -1,0 +1,10 @@
+.dlLinks {
+  display: flex;
+  justify-content: space-around;
+
+  a {
+    display: block;
+    padding: 0.5em;
+    box-shadow: 0px 0px 5px 0px black;
+  }
+}

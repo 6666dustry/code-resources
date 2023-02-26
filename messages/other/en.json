@@ -1,5 +1,6 @@
 {
   "title": "Other",
+  "party": "Something for party",
   "pairChallengeMaker": {
     "title": "pair-challenge-maker",
     "use": "How To Use",
@@ -29,6 +30,43 @@
     "lottery": {
       "title": "start lottery",
       "description": "click \"start lottery\"."
+    }
+  },
+  "blender": {
+    "title": "Blender",
+    "description": "Blender is a free,open source software, for 3DCG.",
+    "fundamental": {
+      "title": "Blender fundamental",
+      "shortcuts": {
+        "title": "shortcuts",
+        "tab": {
+          "description": "toggle object mode and edit mode."
+        },
+        "shift": {
+          "description": "switching to multi selection mode."
+        },
+        "ctrlS": {
+          "description": "save .blend file."
+        },
+        "ctrlZ": {
+          "description": "undo."
+        },
+        "ctrlZShift": {
+          "description": "redo.(restore recently undo.)"
+        },
+        "f": {
+          "description": "make edge or face from vertices."
+        },
+        "space": {
+          "description": "start/stop animation."
+        },
+        "t": {
+          "description": "open/close left side bar."
+        },
+        "n": {
+          "description": "open/close right side bar."
+        }
+      }
     }
   }
 }
