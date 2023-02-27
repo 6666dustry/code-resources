@@ -39,6 +39,9 @@
       "title": "ブレンダーの基本",
       "shortcuts": {
         "title": "ショートカット",
+        "middleClick": {
+          "description": "視点を回します。"
+        },
         "tab": {
           "description": "オブジェクトモードと編集モードを切り替えます。"
         },

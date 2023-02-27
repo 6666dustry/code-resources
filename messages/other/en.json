@@ -39,6 +39,9 @@
       "title": "Blender fundamental",
       "shortcuts": {
         "title": "shortcuts",
+        "middleClick": {
+          "description": "rotate viewport."
+        },
         "tab": {
           "description": "toggle object mode and edit mode."
         },

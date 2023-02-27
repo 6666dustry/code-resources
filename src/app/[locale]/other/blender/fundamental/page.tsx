@@ -10,6 +10,8 @@ export default function Page() {
       <summary>{s("title")}</summary>
       <ul>
         <Shortcut keys={["ctrl", "z"]}>{s("ctrlZ.description")}</Shortcut>
+        <Shortcut keys="middleClick(wheel) drag ">{s("middleClick.description")}</Shortcut>
+
         <Shortcut keys={["ctrl", "shift", "z"]}>{s("ctrlZShift.description")}</Shortcut>
         <Shortcut keys={["ctrl", "s"]}>{s("ctrlS.description")}</Shortcut>
         <Shortcut keys="shift">{s("shift.description")}</Shortcut>
