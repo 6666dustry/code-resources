@@ -1,6 +1,6 @@
 {
   "Index": {
-    "title": "Web Showcase",
+    "title": "Code Resources",
     "description": "There are many examples of the Web in here. <br></br>This project is still in development!",
     "why": "`I understand syntax,but I don't know how to use.......`<br></br>`I want some code that can easy to paste, and understand how it works........`<br></br>This website is designed to help these people!",
     "detail": "detail",
@@ -19,8 +19,8 @@
     "en": "English"
   },
   "meta": {
-    "title": "Web Showcase",
-    "description": "There are many examples of the Web!\nCSS,Sass,Javascript,Typescript and so on."
+    "title": "Code Resource",
+    "description": "There are many examples of the code!\nCSS,Sass,Javascript,Typescript and so on."
   },
   "prev-next": {
     "prev": "Back to prev",

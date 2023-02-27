@@ -1,7 +1,7 @@
 {
   "Index": {
-    "title": "ウェブショーケース",
-    "description": "様々なウェブに関するデモがあります。<br></br>このサイトはまだ開発中です！",
+    "title": "コード保管庫",
+    "description": "様々なウェブのデモがあります。<br></br>このサイトはまだ開発中です！",
     "why": "構文は理解したけどどう作ればいいのかわからない......<br></br>ぱっとコピペできる簡単なデモが欲しい......<br></br>そんな人に向けてこれからも更新していきますので、応援よろしくお願いします！",
     "detail": "詳細",
     "CSS": {
@@ -19,8 +19,8 @@
     "en": "英語"
   },
   "meta": {
-    "title": "ウェブショーケース",
-    "description": "ウェブのプログラミングの例がたくさん！CSS,Sass,Javascript,Typescriptなどなど。"
+    "title": "コード保管庫",
+    "description": "コード例がたくさん！CSS,Sass,Javascript,Typescriptなどなど。"
   },
   "prev-next": {
     "prev": "前へ戻る",
