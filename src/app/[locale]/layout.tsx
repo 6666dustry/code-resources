@@ -30,7 +30,9 @@ export default function RootLayout({ children, params }: Props) {
         <head /> will contain the components returned by the nearest parent
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
-      <head />
+      <head >
+        <meta name="google-site-verification" content="IzNuDEmkGfocetj9cImpUkSYjxuunoJy80Cl4lXq7Ys" />
+      </head>
       <body>
         <header>
           <nav>
