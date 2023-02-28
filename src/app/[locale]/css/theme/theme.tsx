@@ -13,9 +13,12 @@ export default function Theme({ buttonText = "", children, className, descriptio
   return <details className={styles.details}>
     <summary><section className={className + " " + styles.showcase}>
       <h2 className={styles.h2}>{name}</h2>
-      <p>I`&apos;`m paragraph!</p>
+      <p>I&apos;m paragraph!</p>
       <button className={styles.button} onClick={() => {
-        document.querySelector("html")?.classList.add(className);
+        const HTML = document.querySelector("html");
+        if (HTML) {
+          HTML.className = className;
+        }
       }} type="button" >{buttonText}</button>
     </section>
     </summary>

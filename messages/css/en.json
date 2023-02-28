@@ -10,7 +10,19 @@
     "try": "try this theme",
     "rainbow": {
       "name": "rainbow",
-      "description": "Crash eyes."
+      "description": "Crash your eyes."
+    },
+    "dark": {
+      "name": "dark",
+      "description": "The most popular theme. saving power, saving your eyes."
+    },
+    "cool": {
+      "name": "cool",
+      "description": "This theme is so cool!"
+    },
+    "nature": {
+      "name": "nature",
+      "description": "Nature is very powerful."
     }
   }
 }

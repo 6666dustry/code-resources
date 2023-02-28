@@ -9,6 +9,7 @@ export default function Page() {
     <p>{t("description")}</p>
     <div className={styles.wrapper}>
       <Themes.rainbow.default />
+      <Themes.dark.default />
     </div>
   </BackForward >;
 }

@@ -11,6 +11,18 @@
     "rainbow": {
       "name": "レインボー",
       "description": "目が死にます。"
+    },
+    "dark": {
+      "name": "ダーク",
+      "description": "一番メジャーなテーマ。電気と目を休めます。"
+    },
+    "cool": {
+      "name": "クール",
+      "description": "とってもクールだぜー！"
+    },
+    "nature": {
+      "name": "大自然",
+      "description": "大自然の力を感じましょう。"
     }
   }
 }
