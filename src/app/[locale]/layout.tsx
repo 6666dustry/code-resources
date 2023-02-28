@@ -11,8 +11,7 @@ export async function generateMetadata() {
   const head: Metadata = {};
   return {
     title: t('title'),
-    description: t('description'),
-    [`google-site-verification`]: "IzNuDEmkGfocetj9cImpUkSYjxuunoJy80Cl4lXq7Ys"
+    description: t('description')
   };
 };
 type Props = {
@@ -31,9 +30,7 @@ export default function RootLayout({ children, params }: Props) {
         <head /> will contain the components returned by the nearest parent
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
-      <head >
-        <meta name="google-site-verification" content="IzNuDEmkGfocetj9cImpUkSYjxuunoJy80Cl4lXq7Ys" />
-      </head>
+      <head />
       <body>
         <header>
           <nav>
