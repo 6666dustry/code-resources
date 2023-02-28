@@ -11,7 +11,8 @@ export async function generateMetadata() {
   const head: Metadata = {};
   return {
     title: t('title'),
-    description: t('description')
+    description: t('description'),
+    [`google-site-verification`]: "IzNuDEmkGfocetj9cImpUkSYjxuunoJy80Cl4lXq7Ys"
   };
 };
 type Props = {
