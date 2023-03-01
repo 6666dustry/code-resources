@@ -37,6 +37,7 @@
     "description": "Blender is a free,open source software, for 3DCG.",
     "fundamental": {
       "title": "Blender fundamental",
+      "description": "You might think Blender manual is too long. so we prepared these fundamentals for you!",
       "shortcuts": {
         "title": "shortcuts",
         "middleClick": {

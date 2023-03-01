@@ -37,6 +37,7 @@
     "description": "ブレンダーは無料の3DCGソフトウェアです。",
     "fundamental": {
       "title": "ブレンダーの基本",
+      "description": "ブレンダーのマニュアル、長すぎて読む気しませんよね。そんなあなたに、Blenderの基本をお伝えします。",
       "shortcuts": {
         "title": "ショートカット",
         "middleClick": {

@@ -1,9 +1,9 @@
-import Article from "../../article.jsx";
+import Article from "@/components/article/article.jsx";
 import Code from "@/components/code.jsx";
 import { useTranslations } from "next-intl";
 export default function Articles() {
   const t = useTranslations("JavaScript.library.nextjs.making-website.make-sub-page");
-  return <Article lastEdit={new Date(2023, 1, 12)} prev="/javascript/libraries/nextjs/making-website/start-launch" >
+  return <Article upload={new Date(2023, 1, 12)} prev="/javascript/libraries/nextjs/making-website/start-launch" >
     <h1>{t("title")}</h1>
     <ul>
       <li>

@@ -6,6 +6,7 @@ export default function Page() {
   const s = useTranslations("Other.blender.fundamental.shortcuts");
   return <BackForward prev="/other/blender">
     <h1>{t("title")}</h1>
+    <p>{t("description")}</p>
     <details>
       <summary>{s("title")}</summary>
       <ul>

@@ -1,12 +1,12 @@
 import styles from "./page.module.css";
-import Article from "../../article.jsx";
+import Article from "@/components/article/article.jsx";
 import Ruby from "@/components/ruby.jsx";
 import Code from "@/components/code.jsx";
 import { useLocale, useTranslations } from "next-intl";
 export default function Articles() {
   const t = useTranslations("JavaScript.library.nextjs.making-website.start-launch");
   const disableRuby = !(useLocale() === "jp");
-  return <Article lastEdit={new Date(2023, 1, 11)} next="/javascript/libraries/nextjs/making-website/make-sub-page" prev="/javascript/libraries/nextjs/making-website/">
+  return <Article upload={new Date(2023, 1, 11)} next="/javascript/libraries/nextjs/making-website/make-sub-page" prev="/javascript/libraries/nextjs/making-website/">
     <br />
     <h1>{t("title")}</h1>
     <h2>{t("step1.title")}</h2>
