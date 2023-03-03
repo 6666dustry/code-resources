@@ -1,9 +1,9 @@
 {
   "configurations": [
     {
-      "name": "Launch Edge",
+      "name": "Launch chrome",
       "request": "launch",
-      "type": "msedge",
+      "type": "chrome",
       "url": "http://localhost:3000",
       "webRoot": "${workspaceFolder}"
     }
