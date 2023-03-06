@@ -31,7 +31,6 @@ export default function Artifact({ DL, children, description, locale }: {
       let link = document.createElement('a');
       link.href = d.path;
       link.download = d.name;
-      link.click();
       fetch(d.path).then((v) =>
         v.blob()
       ).then((v) => {
