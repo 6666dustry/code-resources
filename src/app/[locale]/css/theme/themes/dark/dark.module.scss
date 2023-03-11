@@ -1,0 +1,24 @@
+.dark,
+.dark * {
+  color: white;
+  background-color: black;
+}
+
+.dark a {
+  $def : gray;
+  $hov : lightgray;
+  $visit : darkgray;
+
+  text-decoration-color: $def;
+  color: $def;
+
+  &:visited {
+    text-decoration-color: $visit;
+    color: $visit;
+  }
+
+  &:hover {
+    text-decoration-color: $hov;
+    color: $hov;
+  }
+}

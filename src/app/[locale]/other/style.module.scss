@@ -1,4 +1,5 @@
-.other,
-.other * {
-  background-color: white;
+$color: white;
+
+.other {
+  background-color: $color;
 }

@@ -15,6 +15,7 @@ export default function Home() {
         <details>
           <summary>{t("detail")}</summary>
           <p>Coming soon...</p>
+          <p><Link href="/html">{t("see")}</Link></p>
         </details>
       </section>
       <section className={styles.section}>
@@ -22,6 +23,7 @@ export default function Home() {
         <details>
           <summary>{t("detail")}</summary>
           <p>{t("CSS.detail")}</p>
+          <p><Link href="/css">{t("see")}</Link></p>
         </details>
       </section>
       <section className={styles.section}>
@@ -29,6 +31,7 @@ export default function Home() {
         <details>
           <summary>{t("detail")}</summary>
           <p>{t("JavaScript.detail")}</p>
+          <p><Link href="/javascript">{t("see")}</Link></p>
         </details>
       </section>
       <section className={styles.section}>
@@ -36,6 +39,7 @@ export default function Home() {
         <details>
           <summary>{t("detail")}</summary>
           <p>{t("Other.detail")}</p>
+          <p><Link href="/other">{t("see")}</Link></p>
         </details>
       </section>
     </div>
