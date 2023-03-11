@@ -1,15 +1,14 @@
 import styles from './page.module.scss';
 import { useTranslations } from 'next-intl';
 import { Link } from 'next-intl';
-import { articles } from './articles.js';
+import Article from './articles.jsx';
 export default function Home() {
   const t = useTranslations("Index");
-  const list = articles;
   return <main>
     <h1 className={styles.h1}>{t("title")}</h1>
     <p className={styles.p}>{t.rich("description")}</p>
     <p>{t.rich("why")}</p>
-    <ul>{list.map(v => <li key={v.title}><p><Link href={v.url}>{v.title}</Link></p></li>)}</ul>
+    <Article />
     <div className={styles.wrapper}>
       <section className={styles.section}>
         <h1>HTML</h1>

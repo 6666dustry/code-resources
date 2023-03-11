@@ -3,8 +3,7 @@
   "about": {
     "title": "JavaScriptとは？",
     "description": "JavaScriptは軽量なインタープリター型(コンパイルが不要)プログラミング言語です。",
-    "using": "主な用途はウェブに動きを付けることです。",
-    "list": "一覧"
+    "using": "主な用途はウェブに動きを付けることです。"
   },
   "library": {
     "title": "ライブラリ/フレームワーク",
@@ -95,7 +94,6 @@
       }
     },
     "react": {
-      "title": "React",
       "description": "Reactはインタラクティブなユーザーインターフェースを簡単に構築できます。",
       "official": "React公式サイト",
       "comment-out": {

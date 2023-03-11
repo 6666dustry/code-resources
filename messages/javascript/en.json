@@ -3,8 +3,7 @@
   "about": {
     "title": "What is JavaScript?",
     "description": "Javascript is a programming language that fast,easy to learn and not necessary compile.",
-    "using": "JavaScript is the programming language of the Web.",
-    "list": "list"
+    "using": "JavaScript is the programming language of the Web."
   },
   "library": {
     "title": "library/framework",
@@ -95,7 +94,6 @@
       }
     },
     "react": {
-      "title": "React",
       "description": "React is a library for building interactive user interfaces easily.",
       "official": "React official homepage",
       "comment-out": {

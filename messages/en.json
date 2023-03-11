@@ -4,6 +4,7 @@
     "description": "There are many examples of the Web in here. <br></br>This project is still in development!",
     "why": "`I understand syntax,but I don't know how to use.......`<br></br>`I want some code that can easy to paste, and understand how it works........`<br></br>This website is designed to help these people!",
     "detail": "detail",
+    "recently": "Recently post",
     "CSS": {
       "detail": "CSS and Sass is here."
     },
@@ -25,5 +26,8 @@
   "prev-next": {
     "prev": "Back to prev",
     "next": "Go to Next"
+  },
+  "map": {
+    "list": "list"
   }
 }

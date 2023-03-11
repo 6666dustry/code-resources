@@ -1,6 +1,6 @@
-import { Link } from "next-intl";
 import BackForward from "@/components/links/back-forward.jsx";
 import { useTranslations } from "next-intl";
+import Map from "./map.jsx";
 export default function Page() {
   const t = useTranslations("JavaScript");
   return <BackForward prev="/">
@@ -10,7 +10,6 @@ export default function Page() {
       <p>{t("about.description")}</p>
       <p>{t("about.using")}</p>
     </section>
-    <h2>{t("about.list")}</h2>
-    <ul><li> <Link href="/javascript/libraries">{t("library.title")}</Link></li></ul>
+    <Map />
   </BackForward >;
 }

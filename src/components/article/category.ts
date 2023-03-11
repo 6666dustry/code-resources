@@ -1,18 +1,30 @@
 const util = (n: string, u: string) => ({ name: n, url: u });
 export let category = {
-  html: util(
+  HTML: util(
     "HTML",
     "/html"
   ),
-  css: util(
+  CSS: util(
     "CSS",
     "/css"
   ),
-  javascript: util(
+  JavaScript: util(
     "JavaScript",
     "/javascript"
   ),
-  blender: util(
+  ThreeJS: util(
+    "Three.js",
+    "/javascript/libraries/threejs"
+  ),
+  NextJS: util(
+    "Next.js",
+    "/javascript/libraries/nextjs"
+  ),
+  React: util(
+    "React",
+    "/javascript/libraries/react"
+  ),
+  Blender: util(
     "Blender",
     "/other/Blender"
   )

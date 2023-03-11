@@ -1,3 +1,20 @@
 :where(.nav) {
   display: flex;
 }
+
+.dropdown {
+  position: relative;
+  width: 100%;
+
+  .hide {
+    box-shadow: 0px 0px 7.5px 0px black;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    min-width: 100%;
+  }
+
+  &:hover .hide {
+    display: block;
+  }
+}

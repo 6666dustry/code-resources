@@ -1,10 +1,10 @@
-import BackForward from "@/components/links/back-forward.jsx";
 import { useTranslations } from "next-intl";
 import Shortcut from "./Shortcut.jsx";
+import Article from "@/components/article/article.jsx";
 export default function Page() {
   const t = useTranslations("Other.blender.fundamental");
   const s = useTranslations("Other.blender.fundamental.shortcuts");
-  return <BackForward prev="/other/blender">
+  return <Article tags={["Blender"]} upload={new Date(2023, 2, 2)} prev="/other/blender">
     <h1>{t("title")}</h1>
     <p>{t("description")}</p>
     <details>
@@ -24,5 +24,5 @@ export default function Page() {
 
       </ul>
     </details>
-  </BackForward>;
+  </Article>;
 }

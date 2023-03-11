@@ -2,10 +2,10 @@ import Code from "@/components/code.jsx";
 import InlineCode from "@/components/inline-code.jsx";
 import Key from "@/components/key.jsx";
 import { useTranslations } from "next-intl";
-import BackForward from "@/components/links/back-forward.jsx";
+import Article from "@/components/article/article.jsx";
 export default function Page() {
   const t = useTranslations("JavaScript.library.react.comment-out");
-  return <BackForward prev="/javascript/libraries/react">
+  return <Article upload={new Date(2023, 2, 2)} prev="/javascript/libraries/react">
     <h1>{t("title")}</h1>
     <Code defaultLang="jsx">
       {`<div>
@@ -32,5 +32,5 @@ export default function Page() {
       //@ts-ignore
       key: <Key>{["ctrl", "/"]}</Key>
     })}</p>
-  </BackForward>;
+  </Article>;
 }

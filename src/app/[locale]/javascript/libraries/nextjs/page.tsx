@@ -1,4 +1,4 @@
-import { Link } from "next-intl";
+import Map from "./map.jsx";
 import BackForward from "@/components/links/back-forward.jsx";
 import { useTranslations } from "next-intl";
 export default function NextJS() {
@@ -8,10 +8,7 @@ export default function NextJS() {
     <h1>Next.js</h1>
     <h2>{t("about.title")}</h2>
     <p>{t("about.description")}</p>
-    <ul>
-      <li> <p><Link href="/javascript/libraries/nextjs/making-website">{t("making-website.title")}</Link></p></li>
-      <li><p><Link href="/javascript/libraries/react/comment-out">{r("comment-out.title")}</Link></p></li>
-    </ul>
+    <Map />
     <p> <a href="https://nextjs.org/" rel="noopener noreferrer" target="_blank">{t("official")}</a></p>
   </BackForward>;
 }
