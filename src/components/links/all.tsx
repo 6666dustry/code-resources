@@ -15,7 +15,7 @@ export default function Links() {
   const locale = useLocale();
   const t = useTranslations("Index");
   return <ul className={styles.nav}>
-    <li ><Link href="/">Home</Link></li>
+    <Home />
     <li ><Link href="/html">HTML</Link></li>
     <li ><Link href="/css">CSS</Link></li>
     <li ><Link href="/javascript">Javascript</Link></li>
